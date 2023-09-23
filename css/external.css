@@ -1,0 +1,15 @@
+p{
+    background-color: brown !important;
+}
+/* id selector */
+#abc{
+    background-color: yellow;
+}
+/* class selector */
+.paraclass{
+    background-color: blue;
+}
+/* group selctor */
+p,article{
+    width: 500px;
+}

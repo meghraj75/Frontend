@@ -1,0 +1,21 @@
+.container{
+height: 300px;
+width: 600px;
+border: 2px solid firebrick;
+display: grid;
+background-color: wheat;
+/* grid-template-rows: 200px 200px 200px;space between to line l1and l2 */
+/* grid-template-columns:100px 100px 100px ;
+grid-template-rows: 100px 100px 100px 100px; */
+/* grid-template-rows: repeat(3,1fr); */
+/* row-gap:10px ;
+column-gap: 10px; */
+/* grid-gap: 10px; property define rows and columns gap equally */
+}
+.box{
+     /* height: 50px;
+    width: 80px;  */
+    border: 1px solid black;
+    background-color: rgb(194, 243, 121);
+   text-align: center;
+}

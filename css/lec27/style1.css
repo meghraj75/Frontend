@@ -1,0 +1,45 @@
+.container{
+    background-color: rgb(234, 110, 131);
+    height: 300px;
+    width: 700px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    
+}
+.box {
+    text-align: center;
+    /* height: 13.9vh;
+    width: 21.9vw; */
+    
+}
+.one{
+background-color: skyblue;
+
+}
+.two{
+background-color: orangered;
+}
+.three{
+background-color: blueviolet;
+}
+.four{
+background-color: yellow;
+}
+.five{
+background-color: purple;
+
+}
+.six{
+    background-color: green;
+
+}
+.seven{
+background-color: rgb(246, 117, 70);
+}
+.eight{
+background-color: aqua;
+}
+.nine{
+background-color: brown;
+}

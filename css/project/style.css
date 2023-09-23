@@ -1,0 +1,28 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(153, 202, 165);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.box{
+    display: flex;
+    border-radius: 15px;
+    background-color: white;
+    height: 350px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.box img{
+   
+    height: 120px;
+    width:150px;
+}

@@ -1,0 +1,98 @@
+.box{
+    background-color: pink;
+    height: 100px;
+    width: 90px;
+    border: 2px solid black;
+    animation-name: fontanimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    transition-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+/* animation on font */
+@keyframes fontanimation {
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size:40px;
+    }
+    
+}
+
+.color{
+    background-color: pink;
+    height: 100px;
+    width: 90px;
+    border: 2px solid black;
+    animation-name: coloranimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    transition-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+  /* animation on color */
+@keyframes coloranimation {
+    from{
+        background-color: greenyellow;
+    }
+    to{
+        background-color:purple;
+    }
+    
+}
+
+/* animation on multiple properties  */
+.width{
+     background-color: burlywood;
+    height: 100px;
+    width: 90px;
+    border: 2px solid black;
+    /*animation-name: widthanimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    transition-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal; */
+    /* short hand property */
+    animation: hrx 2s ease-in 0s infinite normal;
+}
+@keyframes hrx {
+    from{
+       width: 20px;
+       color: white;
+    }
+    to{
+        width: 400px;
+        color: black;
+        border-radius: 30px;
+    }
+    
+}
+
+         /* animation using %  */
+
+.percent{
+    background-color: burlywood;
+   height: 100px;
+   width: 90px;
+   border: 2px solid black;
+ 
+   animation: coloranime 4s ease-in 0s infinite normal;
+}
+@keyframes coloranime {
+   0%{
+      background-color: aqua;
+   }
+   50%{
+       background-color: blue;
+   }
+   80%{
+       background-color: blueviolet;
+   }
+   100%{
+    background-color: black;
+   }
+}

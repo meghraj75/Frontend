@@ -1,0 +1,39 @@
+@media(width:400px){
+    h1{
+        background-color: green;
+        color: white;
+    }
+    div{
+        height: 300px;
+        width: 200px;
+        background-color: blue;
+    }
+}
+
+
+@media(min-width:400px){
+    .h1{
+        background-color: red;
+    }
+}
+@media(max-width:400px){
+    .h2{
+        background-color: teal;
+    }
+}
+/* range btwn 200px to 300px */
+@media(min-width:200px) and (max-width:300px){
+    .h3{
+        background-color: magenta;
+    }
+}
+
+   /* orientation 
+   landscape :-when phone is horizontal aadva phone
+   potrait:-when phone is vertical saral phone 
+   */
+   @media(orientation:landscape){
+    h4{
+        background-color: bisque;
+    }
+   }

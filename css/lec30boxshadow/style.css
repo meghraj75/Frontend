@@ -1,0 +1,17 @@
+div{
+    background-color: aqua;
+    height: 200px;
+    box-shadow: 2px 3px 8px yellow;
+    width: 300px;
+   margin-left: 200px;
+}
+.bg{
+    background-color: gray;
+    height: 2000px;
+     width: 3000px;
+   margin-left: 200px;
+   background-image: url("box8_image.jpg");
+   /* background-size: contain; */
+   background-size: cover;
+
+}

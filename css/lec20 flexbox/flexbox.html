@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .container{
+        height: 500px;
+        background-color: beige;
+        border: 1px solid black;
+        margin: 2px;
+        padding: 2px;
+        display: flex;
+        /*  flex-direction:column all item are visible columne wise */
+        /* flex-direction: row;   all item are display row wise * and by default when we use flex is item row wise */
+        /* flex-direction: row-reverse; all item display reverrse in row */
+        /* flex-wrap: wrap;  when my width is less in inspect then my item are gone one by one in next line? */
+         /* flex-wrap: wrap-reverse;reverse wrap */
+
+             /* justify-content: ; according to place item in main axis(horizontally) */
+             /* justify-content: center; center item horizontally */
+             /* justify-content: start; end are property add end and start itm */
+             /* justify-content: space-between; space equal in all items */
+              /* justify-content: space-around; every item left and right equal space */
+              /* justify-content: space-evenly; */
+
+              /* align-items: ; all flex item are align work in cross axis(vertical)*/
+             /* align-items: center; */
+              /* align-items: end; */
+              /* align-items: stretch; by default item is strech */
+
+              /* align-content: ;this propeerty use when you display item wrap the item when width is small the item shift one by one down then space bet
+               upper item and lower item we can handle this space using align-content: ; */
+               /* align-content: start;end ,center,*/
+
+
+               /* propety in flex item
+               order
+               flex-shrink and flex-grow
+               flex-basis
+               align-self alignment in vertical axis or horizontal axis when you set flex wrap
+               */
+                    
+
+              
+
+    } 
+    .box{
+        height: 200px;
+        width: 200px;
+        border: 2px solid brown;
+        margin: 2px;
+        padding: 2px;
+    }
+    
+       #box1{
+        background-color: brown;
+        /* order: 500; chang flex item sequence*/
+        /* flex-shrink: 3; shrink 3 times fast box 1 */
+        /* flex-grow: 3;box grown 3 times fast */
+        /* flex-basis: 400px; set dimension */
+        /* align-self: center; centeer */
+
+       }
+       #box2{
+        background-color: yellow;
+    }
+    #box3{
+        background-color: rebeccapurple;
+    }
+    #box4{
+        background-color: blue;
+    }
+    </style>
+</head>
+<div>
+    <div class="container">
+      <div class="box" id="box1">box1</div>
+      <div class="box" id="box2">box2</div>
+      <div class="box" id="box3">box3</div>
+      <div class="box" id="box4">box4</div>
+        </div>    
+</body>
+</html>

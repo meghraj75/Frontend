@@ -1,0 +1,29 @@
+.container{
+    height: 100px;
+    width: 200px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.box{
+    margin: auto; 
+
+    width: 400px;
+    height: 400px;
+    background-color: beige;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 3s linear ;
+}
+.box:hover{
+    /* transform: rotate(360deg);rotate box in 45 degrees colckwise and using - sign this anticlockwise*/
+    /* transform: scale(2); using scale you can increase box size 2 time big and you aslso small size 0.5 */
+    /* transform: skew(45deg);  */
+     transform: translate(200px,200px); /*1 st paratermert show x axis and 2 parameter show y axis */
+   
+}
+p{
+    font-size: 20px;
+}

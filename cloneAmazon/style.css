@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+/* navbar bg */
+ .navbar{
+   height: 60px;
+  color: white;
+   background-color: #0f1111;
+   display:flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+/* box1 */
+.nav_logo{
+    height: 50px;
+    width: 100px;
+    
+}
+.logo{
+    background-image: url("logo.png");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+/* All element in navbar has same border */
+.border{
+ border: 1.5px solid transparent;
+}
+/* when we hover border */
+.border:hover{
+    border: 1.5px solid white;
+}
+/* box2 */
+.add_first{
+    padding-top:5px;
+    padding-left:15px;
+    color:#cccccc;
+    font-size:0.875rem;
+}
+.add_second{
+    font-size: 1rem;
+    padding-bottom:5px;
+    font-weight:500;
+    padding-left:5px;
+}
+.add_icon{
+    display: flex;
+    align-items: center;
+}
+
+/* box3 searchbox */
+ .nav_search{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+ }
+ .nav_search:hover{
+    border:2px solid orange;
+ }
+ .searchselect{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    border: none;
+ }
+ .input_search{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+ }
+ .search_icon{
+    width: 45px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd68;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px ;
+    color: black;
+ }
+
+ /* //box 4 lang  */
+ .lang{
+    display: flex;
+    height:33px ;
+    width: 55px;
+ }
+ 
+ .selectlang{
+    font-size: 14px;
+    border:none;
+ }
+ .text1{
+    font-size: 0.85rem;
+ }
+ .acclist{
+      border-radius:0px;
+      font-size:16px;
+      font-weight:700;
+
+ }
+ /* box5 */
+ .Returns{
+    font-size: 12px;
+ }
+ .orde{
+    font-size: 14px;
+    font-weight: 700;
+ }
+ /* box6 */
+ .cart{
+    display: flex
+ }
+ .cartlogo{
+    font-size:30px;
+    font-weight: 700;
+ }
+ .ca{
+    font-size: 14px;
+    font-weight: 700;
+       padding-top: 15px;
+ }
